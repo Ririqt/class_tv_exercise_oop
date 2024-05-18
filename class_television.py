@@ -23,3 +23,6 @@ class Television:
     def set_volume(self, volume_level):
         if self.on and 0 <= volume_level <= 7:
             self.volume_level = volume_level
+
+    def channel_up(self):
+        
