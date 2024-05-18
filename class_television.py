@@ -26,3 +26,4 @@ class Television:
 
     def channel_up(self):
         if self.on and self.channel < 120:
+            self.channel += 1
