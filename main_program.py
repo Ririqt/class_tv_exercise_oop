@@ -16,3 +16,4 @@ print("\ntv1's channel is", television_1.channel, "and volume level is", televis
 print("tv2's channel is", television_2.channel, "and volume level is", television_2.volume_level)
 
 television_1.channel_up()
+television_2.volume_down()
