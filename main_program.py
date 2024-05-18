@@ -14,3 +14,5 @@ television_2.set_volume(2)
 
 print("\ntv1's channel is", television_1.channel, "and volume level is", television_1.volume_level)
 print("tv2's channel is", television_2.channel, "and volume level is", television_2.volume_level)
+
+television_1.channel_up()
