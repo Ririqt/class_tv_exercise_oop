@@ -23,3 +23,4 @@ print("tv1's channel is", television_1.channel, "and volume level is", televisio
 print("tv2's channel is", television_2.channel, "and volume level is", television_2.volume_level)
 
 print("\nCurrent Channel and Volume:")
+print("tv1's current channel is", television_1.get_channel(), "and current volume level is", television_1.get_volume())
