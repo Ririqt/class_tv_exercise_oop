@@ -1,9 +1,13 @@
+# Creating Class for Television
 class Television:
+    # Making the Constructor
     def __init__(self):
+        # Instance Variable
         self.channel = 1
         self.volume_level = 1
         self.on = False
 
+    # Making Instance Methods for the functions of theTelevision
     def turn_on(self):
         self.on = True
 
