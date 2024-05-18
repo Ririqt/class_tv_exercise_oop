@@ -3,4 +3,6 @@ class Television:
         self.channel = 1
         self.volume_level = 1
         self.on = False
-        
+
+def turn_on(self):
+    
