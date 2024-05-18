@@ -33,4 +33,5 @@ class Television:
             self.channel -= 1
 
     def volume_up(self):
-        
+        if self.on and self.volume_level < 7:
+            
