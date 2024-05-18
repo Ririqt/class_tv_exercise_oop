@@ -21,4 +21,4 @@ class Television:
         return self.volume_level
 
     def set_volume(self, volume_level):
-        
+        if self.on and 0 <= volume_level <= 7:
