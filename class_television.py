@@ -25,4 +25,4 @@ class Television:
             self.volume_level = volume_level
 
     def channel_up(self):
-        
+        if self.on and self.channel < 120:
