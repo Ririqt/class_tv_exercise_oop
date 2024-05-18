@@ -29,4 +29,4 @@ class Television:
             self.channel += 1
 
     def channel_down(self):
-        
+        if self.on and self.channel > 1:
