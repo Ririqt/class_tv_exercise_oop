@@ -14,4 +14,4 @@ class Television:
         return self.channel
 
     def set_channel(self, channel):
-        
+        if self.on and 1 <= channel <= 120:
