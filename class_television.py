@@ -7,7 +7,7 @@ class Television:
         self.volume_level = 1
         self.on = False
 
-    # Making Instance Methods for the functions of theTelevision
+    # Making Instance Methods for the functions of the Television
     def turn_on(self):
         self.on = True
 
