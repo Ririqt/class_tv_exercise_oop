@@ -38,3 +38,4 @@ class Television:
 
     def volume_down(self):
         if self.on and self.volume_level > 0:
+            self.volume_level -= 1
