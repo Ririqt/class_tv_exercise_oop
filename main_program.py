@@ -8,3 +8,5 @@ television_2.turn_on()
 
 television_1.set_channel(30)
 television_2.set_channel(3)
+
+television_1.set_volume(3)
