@@ -11,3 +11,4 @@ class Television:
         self.on = False
 
     def get_channel(self):
+        return self.channel
