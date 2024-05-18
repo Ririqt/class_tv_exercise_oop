@@ -30,4 +30,4 @@ television_1.turn_off()
 television_2.turn_off()
 
 if television_1.on & television_2.on is False:
-    
+    print("\ntelevision 1 is now off")
