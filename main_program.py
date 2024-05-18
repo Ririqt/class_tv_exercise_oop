@@ -10,3 +10,4 @@ television_1.set_channel(30)
 television_2.set_channel(3)
 
 television_1.set_volume(3)
+television_2.set_volume(2)
