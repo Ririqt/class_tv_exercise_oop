@@ -4,5 +4,5 @@ class Television:
         self.volume_level = 1
         self.on = False
 
-def turn_on(self):
-    
+    def turn_on(self):
+        self.on = True
