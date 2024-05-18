@@ -19,3 +19,6 @@ class Television:
 
     def get_volume(self):
         return self.volume_level
+
+    def set_volume(self, volume_level):
+        
