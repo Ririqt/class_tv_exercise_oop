@@ -28,3 +28,6 @@ print("tv2's current channel is", television_2.get_channel(), "and current volum
 
 television_1.turn_off()
 television_2.turn_off()
+
+if television_1.on & television_2.on is False:
+    
