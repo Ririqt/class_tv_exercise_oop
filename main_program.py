@@ -17,3 +17,5 @@ print("tv2's channel is", television_2.channel, "and volume level is", televisio
 
 television_1.channel_up()
 television_2.volume_down()
+
+print("\nSetting channel up and volume down:")
